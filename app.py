@@ -12,6 +12,13 @@ from os import path # path
 import os
 import subprocess  #to run executable
 
+# PLOTLY
+import plotly_express as px
+import plotly.figure_factory as ff
+import plotly.graph_objects as go
+
+port = int(os.environ.get("PORT", 5000))
+
 app = dash.Dash(
     __name__,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
@@ -20,6 +27,9 @@ app = dash.Dash(
 server = app.server
 
 DATA_PATH = pathlib.Path(__file__).parent.joinpath("data").resolve()
+url_csv = "https://raw.githubusercontent.com/SamEdwardes/dash-heroku-cookie-cutter/master/data/gapminder.csv"
+df = pd.read_csv(url_csv, index_col=0)
+# df = pd.read_csv("data/gapminder.csv")
 
 app.layout = html.Div(
     [
@@ -77,16 +87,20 @@ app.layout = html.Div(
         # html.Div(id="number-output"),
     ]),
 ])
-# @app.callback(Output('yield_boxplot', 'figure'),
-@app.callback(Output('output-state', 'children'),
+# @app.callback(Output('output-state', 'children'),
+@app.callback(Output('yield_boxplot', 'figure'),
               [Input('submit-button-state', 'n_clicks')],
               [State('mystation', 'value')])
 def update_figure(n_clicks, input1):
+    if n_clicks == 0:
+        return dash.no_update
+
+    dssat_files_dir = "dssat_files_dir/"
     print(input1)
     #1) make SNX
-    temp_snx = path.join("C:\\IRI\\Dash_test\\Senegal\\", "SESGTEMP.SNX")
+    temp_snx = path.join(dssat_files_dir, "SESGTEMP.SNX")
     snx_name = 'SESG'+input1+'.SNX'
-    SNX_fname = path.join("C:\\IRI\\Dash_test\\Senegal\\", snx_name)
+    SNX_fname = path.join(dssat_files_dir, snx_name)
     fr = open(temp_snx, "r")  # opens temp SNX file to read
     fw = open(SNX_fname, "w")  # opens SNX file to write
     for i in range(20):
@@ -100,20 +114,38 @@ def update_figure(n_clicks, input1):
         fw.write(temp_str)
     fw.close()
     #2) Run DSSAT executable
-    Wdir_path = 'C:\\IRI\\Dash_test\\Senegal\\'
+    Wdir_path = dssat_files_dir
     os.chdir(Wdir_path)  #change directory  #check if needed o rnot
-    args = "DSCSM047.EXE SGCER047 B DSSBatch.v47"
-    subprocess.call(args) ##Run executable with argument  , stdout=FNULL, stderr=FNULL, shell=False)
+    # args = "./" + dssat_files_dir + "DSCSM047.EXE SGCER047 B DSSBatch.V47"
+    args = "./DSCSM047.EXE SGCER047 B DSSBatch.V47"
+    # subprocess.call(args) ##Run executable with argument  , stdout=FNULL, stderr=FNULL, shell=False)
+    os.system(args)
 
     #3) read DSSAT output
+
+
     #4) Make a boxplot
     # df = px.data.tips()
     # fig = px.box(df, x="time", y="total_bill")
-    # fig.show()s
+    # fig.show()
     # fig.update_layout(transition_duration=500)
+    fig = px.line(
+        df,
+        x="year",
+        y="pop",
+        color="country",
+        title="Population"
+    )
+    fig.show()
+    fig.update_layout(transition_duration=500)
+    return fig
+
 
     # return fig
-    return u'Selected statoin is  "{}" '.format(input1)
+    # return u'Selected station is  "{}" '.format(input1)
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    # app.run_server(debug=True)
+    app.run_server(debug=False,
+                   host="0.0.0.0",
+                   port=port)
