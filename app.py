@@ -90,8 +90,8 @@ app.layout = html.Div(
         # html.Div(id="number-output"),
     ]),
 ])
-# @app.callback(Output('output-state', 'children'),
-@app.callback(Output('yield_boxplot', 'figure'),
+# @app.callback(Output('yield_boxplot', 'figure'),
+@app.callback(Output('output-state', 'children'),
               [Input('submit-button-state', 'n_clicks')],
               [State('mystation', 'value')])
 def update_figure(n_clicks, input1):
