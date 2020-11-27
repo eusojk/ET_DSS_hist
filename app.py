@@ -28,8 +28,11 @@ server = app.server
 
 DATA_PATH = pathlib.Path(__file__).parent.joinpath("data").resolve()
 url_csv = "https://raw.githubusercontent.com/SamEdwardes/dash-heroku-cookie-cutter/master/data/gapminder.csv"
-df = pd.read_csv(url_csv, index_col=0)
-# df = pd.read_csv("data/gapminder.csv")
+# df = pd.read_csv(url_csv, index_col=0)
+
+df = pd.read_csv(DATA_PATH.joinpath("small_molecule_drugbank.csv")).drop(
+    ["Unnamed: 0"], axis=1
+)
 
 app.layout = html.Div(
     [
@@ -129,20 +132,17 @@ def update_figure(n_clicks, input1):
     # fig = px.box(df, x="time", y="total_bill")
     # fig.show()
     # fig.update_layout(transition_duration=500)
-    fig = px.line(
-        df,
-        x="year",
-        y="pop",
-        color="country",
-        title="Population"
-    )
-    fig.show()
-    fig.update_layout(transition_duration=500)
-    return fig
 
+    # return create_plot(
+    #     x=df["PKA"],
+    #     y=df["LOGP"],
+    #     z=df["SOL"],
+    #     size=df["MW"],
+    #     color=df["MW"],
+    #     name=df["NAME"],
+    # )
 
-    # return fig
-    # return u'Selected station is  "{}" '.format(input1)
+    return u'Selected station is  "{}" '.format(input1)
 
 if __name__ == "__main__":
     # app.run_server(debug=True)

@@ -1,3 +1,5 @@
 dash==1.16.3
 gunicorn==19.9.0
-pandas==0.25.1\nnumpy==1.19.2
+numpy==1.19.2
+plotly
+plotly-express
