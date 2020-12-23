@@ -34,6 +34,8 @@ Following are the steps for testing this app on Windows.
 >
 > `heroku container:login`
 >
+> `heroku create et-dss-app1`
+>
 > `heroku container:push web --app et-dss-app1`
 >
 > `heroku container:release web --app et-dss-app1`
