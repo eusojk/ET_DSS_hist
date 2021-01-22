@@ -1,0 +1,869 @@
+*WATER BALANCE OUTPUT FILE
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN   1        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 1991/165    586.18
+!     Soil H20 (final) on Year/day 1991/292    491.91
+!     Effective Irrigation                       0.00
+!     Precipitation                            400.80
+!     Water added with new mulch                 0.00
+!     Drainage                                  34.02
+!     Tiledrain flow                             0.00
+!     Runoff                                    34.29
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         112.58
+!     Transpiration                            314.17
+!     Potential ET                             623.47
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.013
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN   2        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 1992/165    586.18
+!     Soil H20 (final) on Year/day 1992/305    495.81
+!     Effective Irrigation                       0.00
+!     Precipitation                            655.00
+!     Water added with new mulch                 0.00
+!     Drainage                                 129.59
+!     Tiledrain flow                             0.00
+!     Runoff                                    73.73
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         149.76
+!     Transpiration                            392.28
+!     Potential ET                             640.55
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.016
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN   3        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 1993/165    586.18
+!     Soil H20 (final) on Year/day 1993/301    512.48
+!     Effective Irrigation                       0.00
+!     Precipitation                            582.20
+!     Water added with new mulch                 0.00
+!     Drainage                                  91.64
+!     Tiledrain flow                             0.00
+!     Runoff                                    66.03
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         118.26
+!     Transpiration                            379.95
+!     Potential ET                             639.23
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.015
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN   4        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 1994/165    586.18
+!     Soil H20 (final) on Year/day 1994/299    492.92
+!     Effective Irrigation                       0.00
+!     Precipitation                            484.70
+!     Water added with new mulch                 0.00
+!     Drainage                                  75.12
+!     Tiledrain flow                             0.00
+!     Runoff                                    40.99
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         146.05
+!     Transpiration                            315.78
+!     Potential ET                             639.89
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.015
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN   5        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 1995/165    586.18
+!     Soil H20 (final) on Year/day 1995/295    494.74
+!     Effective Irrigation                       0.00
+!     Precipitation                            481.90
+!     Water added with new mulch                 0.00
+!     Drainage                                  73.81
+!     Tiledrain flow                             0.00
+!     Runoff                                    37.23
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         127.51
+!     Transpiration                            334.78
+!     Potential ET                             599.11
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.013
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN   6        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 1996/165    586.18
+!     Soil H20 (final) on Year/day 1996/302    490.48
+!     Effective Irrigation                       0.00
+!     Precipitation                            462.70
+!     Water added with new mulch                 0.00
+!     Drainage                                  75.79
+!     Tiledrain flow                             0.00
+!     Runoff                                    37.43
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         127.30
+!     Transpiration                            317.87
+!     Potential ET                             622.22
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.015
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN   7        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 1997/165    586.18
+!     Soil H20 (final) on Year/day 1997/290    488.77
+!     Effective Irrigation                       0.00
+!     Precipitation                            533.70
+!     Water added with new mulch                 0.00
+!     Drainage                                  79.79
+!     Tiledrain flow                             0.00
+!     Runoff                                    58.14
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         193.81
+!     Transpiration                            299.37
+!     Potential ET                             606.52
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.004
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN   8        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 1998/165    586.18
+!     Soil H20 (final) on Year/day 1998/300    537.43
+!     Effective Irrigation                       0.00
+!     Precipitation                            756.80
+!     Water added with new mulch                 0.00
+!     Drainage                                 202.86
+!     Tiledrain flow                             0.00
+!     Runoff                                   100.98
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         123.05
+!     Transpiration                            378.65
+!     Potential ET                             583.87
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.008
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN   9        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 1999/165    586.18
+!     Soil H20 (final) on Year/day 1999/308    487.68
+!     Effective Irrigation                       0.00
+!     Precipitation                            627.80
+!     Water added with new mulch                 0.00
+!     Drainage                                 147.52
+!     Tiledrain flow                             0.00
+!     Runoff                                   100.47
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         168.53
+!     Transpiration                            309.77
+!     Potential ET                             638.23
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.006
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  10        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2000/165    586.18
+!     Soil H20 (final) on Year/day 2000/306    492.32
+!     Effective Irrigation                       0.00
+!     Precipitation                            617.50
+!     Water added with new mulch                 0.00
+!     Drainage                                 123.80
+!     Tiledrain flow                             0.00
+!     Runoff                                    76.11
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         138.06
+!     Transpiration                            373.38
+!     Potential ET                             613.85
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.006
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  11        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2001/165    586.18
+!     Soil H20 (final) on Year/day 2001/300    491.94
+!     Effective Irrigation                       0.00
+!     Precipitation                            582.30
+!     Water added with new mulch                 0.00
+!     Drainage                                 151.58
+!     Tiledrain flow                             0.00
+!     Runoff                                    74.11
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         142.68
+!     Transpiration                            308.15
+!     Potential ET                             620.66
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.015
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  12        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2002/165    586.18
+!     Soil H20 (final) on Year/day 2002/291    488.26
+!     Effective Irrigation                       0.00
+!     Precipitation                            350.00
+!     Water added with new mulch                 0.00
+!     Drainage                                  48.71
+!     Tiledrain flow                             0.00
+!     Runoff                                    34.50
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         117.01
+!     Transpiration                            247.69
+!     Potential ET                             607.65
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.007
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  13        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2003/165    586.18
+!     Soil H20 (final) on Year/day 2003/297    496.70
+!     Effective Irrigation                       0.00
+!     Precipitation                            548.90
+!     Water added with new mulch                 0.00
+!     Drainage                                 128.41
+!     Tiledrain flow                             0.00
+!     Runoff                                    42.84
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         148.36
+!     Transpiration                            318.76
+!     Potential ET                             579.52
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.012
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  14        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2004/165    586.18
+!     Soil H20 (final) on Year/day 2004/303    493.34
+!     Effective Irrigation                       0.00
+!     Precipitation                            561.20
+!     Water added with new mulch                 0.00
+!     Drainage                                 103.55
+!     Tiledrain flow                             0.00
+!     Runoff                                    84.06
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         113.60
+!     Transpiration                            352.82
+!     Potential ET                             626.04
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.015
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  15        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2005/165    586.18
+!     Soil H20 (final) on Year/day 2005/296    490.88
+!     Effective Irrigation                       0.00
+!     Precipitation                            454.70
+!     Water added with new mulch                 0.00
+!     Drainage                                  57.12
+!     Tiledrain flow                             0.00
+!     Runoff                                    46.60
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         133.01
+!     Transpiration                            313.27
+!     Potential ET                             595.14
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.008
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  16        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2006/165    586.18
+!     Soil H20 (final) on Year/day 2006/296    492.92
+!     Effective Irrigation                       0.00
+!     Precipitation                            490.20
+!     Water added with new mulch                 0.00
+!     Drainage                                  81.51
+!     Tiledrain flow                             0.00
+!     Runoff                                    44.12
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         128.29
+!     Transpiration                            329.53
+!     Potential ET                             581.49
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.009
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  17        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2007/165    586.18
+!     Soil H20 (final) on Year/day 2007/302    492.86
+!     Effective Irrigation                       0.00
+!     Precipitation                            503.60
+!     Water added with new mulch                 0.00
+!     Drainage                                 108.93
+!     Tiledrain flow                             0.00
+!     Runoff                                    20.75
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         156.27
+!     Transpiration                            310.96
+!     Potential ET                             580.67
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.006
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  18        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2008/165    586.18
+!     Soil H20 (final) on Year/day 2008/299    493.55
+!     Effective Irrigation                       0.00
+!     Precipitation                            606.50
+!     Water added with new mulch                 0.00
+!     Drainage                                 137.32
+!     Tiledrain flow                             0.00
+!     Runoff                                    65.25
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         129.58
+!     Transpiration                            366.96
+!     Potential ET                             636.50
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.015
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  19        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2009/165    586.18
+!     Soil H20 (final) on Year/day 2009/296    501.27
+!     Effective Irrigation                       0.00
+!     Precipitation                            505.30
+!     Water added with new mulch                 0.00
+!     Drainage                                  42.45
+!     Tiledrain flow                             0.00
+!     Runoff                                    52.69
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         148.45
+!     Transpiration                            346.61
+!     Potential ET                             606.57
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.008
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  20        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2010/165    586.18
+!     Soil H20 (final) on Year/day 2010/285    505.39
+!     Effective Irrigation                       0.00
+!     Precipitation                            525.20
+!     Water added with new mulch                 0.00
+!     Drainage                                  76.84
+!     Tiledrain flow                             0.00
+!     Runoff                                    44.75
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         113.46
+!     Transpiration                            370.93
+!     Potential ET                             569.40
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.012
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  21        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2011/165    586.18
+!     Soil H20 (final) on Year/day 2011/319    493.39
+!     Effective Irrigation                       0.00
+!     Precipitation                            537.70
+!     Water added with new mulch                 0.00
+!     Drainage                                 131.45
+!     Tiledrain flow                             0.00
+!     Runoff                                    34.96
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         164.22
+!     Transpiration                            299.84
+!     Potential ET                             703.61
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.017
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  22        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2012/165    586.18
+!     Soil H20 (final) on Year/day 2012/312    494.48
+!     Effective Irrigation                       0.00
+!     Precipitation                            547.00
+!     Water added with new mulch                 0.00
+!     Drainage                                 129.98
+!     Tiledrain flow                             0.00
+!     Runoff                                    32.49
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         159.34
+!     Transpiration                            316.88
+!     Potential ET                             669.86
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.016
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  23        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2013/165    586.18
+!     Soil H20 (final) on Year/day 2013/305    491.61
+!     Effective Irrigation                       0.00
+!     Precipitation                            543.70
+!     Water added with new mulch                 0.00
+!     Drainage                                  89.66
+!     Tiledrain flow                             0.00
+!     Runoff                                    38.58
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         190.96
+!     Transpiration                            319.05
+!     Potential ET                             627.93
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.012
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  24        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2014/165    586.18
+!     Soil H20 (final) on Year/day 2014/317    490.05
+!     Effective Irrigation                       0.00
+!     Precipitation                            389.60
+!     Water added with new mulch                 0.00
+!     Drainage                                   4.74
+!     Tiledrain flow                             0.00
+!     Runoff                                    33.29
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                          94.11
+!     Transpiration                            353.57
+!     Potential ET                             687.39
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.013
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  25        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2015/165    586.18
+!     Soil H20 (final) on Year/day 2015/301    489.55
+!     Effective Irrigation                       0.00
+!     Precipitation                            298.80
+!     Water added with new mulch                 0.00
+!     Drainage                                   0.47
+!     Tiledrain flow                             0.00
+!     Runoff                                    10.03
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         108.18
+!     Transpiration                            276.74
+!     Potential ET                             624.90
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.012
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  26        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2016/165    586.18
+!     Soil H20 (final) on Year/day 2016/296    493.20
+!     Effective Irrigation                       0.00
+!     Precipitation                            430.30
+!     Water added with new mulch                 0.00
+!     Drainage                                  62.39
+!     Tiledrain flow                             0.00
+!     Runoff                                    45.21
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         180.84
+!     Transpiration                            234.82
+!     Potential ET                             600.37
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.010
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  27        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2017/165    586.18
+!     Soil H20 (final) on Year/day 2017/309    491.73
+!     Effective Irrigation                       0.00
+!     Precipitation                            545.00
+!     Water added with new mulch                 0.00
+!     Drainage                                 131.82
+!     Tiledrain flow                             0.00
+!     Runoff                                    40.72
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         145.21
+!     Transpiration                            321.69
+!     Potential ET                             656.83
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.014
+
+
+*DSSAT Cropping System Model Ver. 4.7.5.008 -release  JAN 15, 2021 21:49:57
+
+*RUN  28        : ERiMA DCC1                MZCER047 ETMZpolo    1
+ MODEL          : MZCER047 - Maize
+ EXPERIMENT     : ETMZpolo SN MELKSSAL
+ DATA PATH      : C:\Users\kpodo\Documents\GitHub\ET_DSS_hist_Eunjin\TEST\
+ TREATMENT  1   : ERiMA DCC1                MZCER047
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2018/165    586.18
+!     Soil H20 (final) on Year/day 2018/298    492.63
+!     Effective Irrigation                       0.00
+!     Precipitation                            406.50
+!     Water added with new mulch                 0.00
+!     Drainage                                   9.34
+!     Tiledrain flow                             0.00
+!     Runoff                                    24.31
+!     Mulch evaporation                          0.00
+!     Soil Evaporation                         176.84
+!     Transpiration                            289.54
+!     Potential ET                             599.50
+
+!     Initial mulch water content                0.00
+!     Final mulch water content                  0.00
+
+!     Final Balance                             0.015
+
