@@ -13,8 +13,8 @@ gunicorn==19.9.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
-numpy==1.19.5
-pandas==0.25.1
+# numpy==1.19.2
+pandas
 plotly==4.14.3
 python-dateutil==2.8.1
 pytz==2020.5

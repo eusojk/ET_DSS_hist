@@ -26,7 +26,7 @@ Following are the steps for testing this app on Windows.
 
 4. Then run the app locally:
 
-> `docker run -p 5000:5000 et_dss_container --name "et_dss_app" `
+> `docker.exe run -p 5000:5000 et_dss_container --name "et_dss_app" `
 
 5. For registering and deploying the app on Heroku:
 
