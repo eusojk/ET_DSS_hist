@@ -267,16 +267,16 @@ app.layout = html.Div(
                 State('intermediate-value', 'children')  #scenario summary table
             )
 def make_sce_table(n_clicks, input1,input2,input3,input4,input5,input6,input7,input8,input9,input10,intermediate):
-    # print(input1)  #MELK
-    # print(input2)  #1981
-    # print(input3)  #2014
-    # print(input4)  #2021-06-15
-    # print(input5)  #CIMT01 BH540-Kassie
-    # print(input6)  #ETET001_18
-    # print(input7)  #0.7
-    # print(input8)  #H
-    # print(input9)  #6
-    # print(input10)  #scenario name
+    print(input1)  #MELK
+    print(input2)  #1981
+    print(input3)  #2014
+    print(input4)  #2021-06-15
+    print(input5)  #CIMT01 BH540-Kassie
+    print(input6)  #ETET001_18
+    print(input7)  #0.7
+    print(input8)  #H
+    print(input9)  #6
+    print(input10)  #scenario name
 
     #Make a new dataframe
     df = pd.DataFrame(
@@ -323,6 +323,12 @@ def run_create_figure(n_clicks, tyear, intermediate):
     if n_clicks is None:
         raise PreventUpdate
     else: 
+        # Testing
+        # Wdir_path = DSSAT_FILES_DIR
+        # os.chdir(Wdir_path)
+        # args = "./DSCSM047.EXE MZCER047 B DSSBatch.V46"
+        # os.system(args) 
+
         # 1) Read saved scenario summaries and get a list of scenarios to run
         dff = pd.read_json(intermediate, orient='split')
         sce_numbers = len(dff.sce_name.values)
@@ -342,7 +348,7 @@ def run_create_figure(n_clicks, tyear, intermediate):
         for i in range(sce_numbers):
             sname = dff.sce_name.values[i]
             SNX_fname = path.join(Wdir_path, "ETMZ"+sname+".SNX")
-            SNX_fname = SNX_fname.replace("/", "\\")
+            # SNX_fname = SNX_fname.replace("/", "\\")
             new_str2 = '{0:<95}{1:4s}'.format(SNX_fname, repr(1).rjust(4)) + temp_str[99:]
             fw.write(new_str2)
 
@@ -351,7 +357,6 @@ def run_create_figure(n_clicks, tyear, intermediate):
         #=====================================================================
         #3) Run DSSAT executable
         os.chdir(Wdir_path)  #change directory  #check if needed o rnot
-
         ## Windows:
         # args = "DSCSM047.EXE MZCER047 B DSSBatch.v47"
         # subprocess.call(args) ##Run executable with argument  , stdout=FNULL, stderr=FNULL, shell=False)
@@ -363,7 +368,7 @@ def run_create_figure(n_clicks, tyear, intermediate):
         #4) read DSSAT output => Read Summary.out from all scenario output
         # fout_name = path.join(Wdir_path, "SUMMARY.OUT")
         fout_name = path.join(Wdir_path, "Summary.OUT")
-        df_OUT=pd.read_csv(fout_name,delim_whitespace=True ,skiprows=3)
+        df_OUT=pd.read_csv(fout_name, delim_whitespace=True ,skiprows=3)
         HWAM = df_OUT.iloc[:,21].values  #read 21th column only
         EXPERIMENT = df_OUT.iloc[:,7].values  #read 4th column only
         PDAT = df_OUT.iloc[:,14].values  #read 14th column only
@@ -499,7 +504,7 @@ def writeSNX_main_hist(Wdir_path,input1,input2,input3,input4,input5,input6,input
     ID_FIELD = WSTA + '0001'
     WSTA_ID =  WSTA
     fw.write(
-        '{0:3s}{1:8s}{2:5s}{3:3s}{4:6s}{5:4s}  {6:10s}{7:4s}'.format(FL.rjust(3), ID_FIELD, WSTA_ID.rjust(5),
+        '{0:2s} {1:8s}{2:5s}{3:3s}{4:6s}{5:4s}  {6:10s}{7:4s}'.format(FL.rjust(2), ID_FIELD, WSTA_ID.rjust(5),
                                                                         '       -99   -99   -99   -99   -99   -99 ',
                                                                         SLTX.ljust(6), SLDP.rjust(4), ID_SOIL,
                                                                         ' -99'))
@@ -509,7 +514,7 @@ def writeSNX_main_hist(Wdir_path,input1,input2,input3,input4,input5,input6,input
     fw.write(temp_str)
     temp_str = fr.readline()  # 1             -99             -99       -99   ==> skip
     # ================write *FIELDS - second section
-    fw.write('{0:3s}{1:89s}'.format(FL.rjust(3),
+    fw.write('{0:2s} {1:89s}'.format(FL.rjust(2),
                                     '            -99             -99       -99               -99   -99   -99   -99   -99   -99'))
     fw.write(" \n")
     fw.write(" \n")
